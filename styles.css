@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cairo;
+}
+body{
+    height: 100vh;
+    background-image: url(image.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.black{
+    height: 100%;
+    background: rgb(19, 19, 19);
+    opacity: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    padding: 30px;
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: white solid 3px;
+    opacity: 100%;
+    text-align: center;
+}
+label{
+    color: white;
+    width: 100%;
+    direction: rtl;
+    font-size: 25px;
+}
+input, select{
+    width: 500px;
+    padding: 10px;
+    margin: 15px;
+    direction: rtl;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+}
+.btn{
+    margin: 15px;
+    font-size: 25px;
+    border: white solid 3px;
+    border-radius: 8px;
+    background: transparent;
+    padding: 5px 5px;
+    width: 200px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn:hover{
+    background: white;
+    color: black;
+}
+p{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    direction: rtl;
+}
